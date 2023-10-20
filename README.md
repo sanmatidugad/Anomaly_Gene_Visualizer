@@ -39,9 +39,9 @@ Automate_Boxplot.R \\ \
 -st VERY\ HIGH\ and\ HIGH
 
 **Examples**
-1. Example for Genes of "ALL" States \
+1. Example for "ALL" aberrantly expressed genes in the Apoptosis panel\
 ![alt text](https://github.com/sanmatidugad/Anomaly_Gene_Visualizer/blob/main/Example%20Outputs/Boxplot-%20X91_031323_B%20-%20ALL%20.png)
-2. Example for Genes of "VERY HIGH and HIGH" States
+2. Example for "VERY HIGHly and HIGHly" expressed genes in the Apoptosis panel
 ![alt text](https://github.com/sanmatidugad/Anomaly_Gene_Visualizer/blob/main/Example%20Outputs/Boxplot-%20X91_031323_B%20-%20VERY%20HIGH%20and%20HIGH%20.png)
-3. Example for Genes of "VERY LOW and LOW" States
+3. Example for "VERY LOW and LOW" expressed genes in the Apoptosis panel
 ![alt text](https://github.com/sanmatidugad/Anomaly_Gene_Visualizer/blob/main/Example%20Outputs/Boxplot-%20X91_031323_B%20-%20VERY%20LOW%20and%20LOW%20.png)
