@@ -4,7 +4,8 @@
 "tidyr","tidyverse", "data.table", "reshape2", "colorspace", "readxl"
 
 **Usage** \
-RScript Automate_Boxplot.R \\ \
+RScript \\ \
+Automate_Boxplot.R \\ \
 -i  <normalized_data>.csv \\ \
 -gs <gene_states>.csv \\ \
 -gp <gene_panel>.xlsx \\ \
