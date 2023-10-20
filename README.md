@@ -14,7 +14,6 @@ RScript Boxplot_Automation.R \
 -p "title for your boxplot" \
 -st state_type
 
-
 **where** :
 -i   = normalized or scaled data. It is an output from the secodary analysis tool. <project>-scaled.csv. Where first two columns are ENSEMBL ID and GENE IDs
 -gs  = gene state data. It is also an output from the secondary analysis tool. <project>-gene_states.csv
