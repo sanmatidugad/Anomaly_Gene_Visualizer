@@ -4,7 +4,7 @@
 "tidyr","tidyverse", "data.table", "reshape2", "colorspace", "readxl"
 
 **Usage** \
-RScript Boxplot_Automation.R \\ \
+RScript Automate_Boxplot.R \\ \
 -i  <normalized_data>.csv \\ \
 -gs <gene_states>.csv \\ \
 -gp <gene_panel>.xlsx \\ \
@@ -27,7 +27,7 @@ The state type (-st) option will only select genes from the gene panel that are 
 
 **Example Command** \
 RScript \\ \
-Boxplot_Automation.R \\ \
+Automate_Boxplot.R \\ \
 -i  test1-scaled.csv \\ \
 -gs test1-gene_states.csv \\ \
 -gp gene_panels.xlsx \\ \
