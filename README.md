@@ -36,3 +36,11 @@ Boxplot_Automation.R \\ \
 -t X91_031323_B \\ \
 -p Apoptosis-Genes-Aberrantly-Expressed-as-VERY-HIGH-and-HIGH-for-Tumor-Sample-X91_031323_B \\ \
 -st VERY\ HIGH\ and\ HIGH
+
+**Examples** \
+1. Example for Genes of "ALL" States \
+![alt text](https://github.com/sanmatidugad/Anomaly_Gene_Visualizer/blob/main/Example%20Outputs/Boxplot-%20X91_031323_B%20-%20ALL%20.png)
+2. Example for Genes of "VERY HIGH and HIGH" States
+![alt text](https://github.com/sanmatidugad/Anomaly_Gene_Visualizer/blob/main/Example%20Outputs/Boxplot-%20X91_031323_B%20-%20VERY%20HIGH%20and%20HIGH%20.png)
+3. Example for Genes of "VERY LOW and LOW" States
+![alt text](https://github.com/sanmatidugad/Anomaly_Gene_Visualizer/blob/main/Example%20Outputs/Boxplot-%20X91_031323_B%20-%20VERY%20LOW%20and%20LOW%20.png)
