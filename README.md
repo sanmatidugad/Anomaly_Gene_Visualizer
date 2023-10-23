@@ -35,7 +35,7 @@ Automate_Boxplot.R \\ \
 -gpn Apoptosis \\ \
 -n 78 \\ \
 -t X91_031323_B \\ \
--p "Test1: Apoptosis Gene Panel, ALL genes" \\ \
+-p Test1: Apoptosis Gene Panel, ALL genes \\ \
 -st VERY\ HIGH\ and\ HIGH
 
 **Examples**
