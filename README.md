@@ -35,7 +35,7 @@ Automate_Boxplot.R \\ \
 -gpn Apoptosis \\ \
 -n 78 \\ \
 -t X91_031323_B \\ \
--p Apoptosis-Genes-Aberrantly-Expressed-as-VERY-HIGH-and-HIGH-for-Tumor-Sample-X91_031323_B \\ \
+-p Test1: Apoptosis All Genes \\ \
 -st VERY\ HIGH\ and\ HIGH
 
 **Examples**
