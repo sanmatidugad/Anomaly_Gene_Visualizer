@@ -1,4 +1,4 @@
-## Developed and Maintained by Sanmati Dugad
+## MAINTAINER: Sanmati Dugad
 
 rm(list=ls())    #clear the environment in R. Remove all objects (variables, functions, etc.) from the current workspace.
 Sys.setenv(TZ='EDT')
