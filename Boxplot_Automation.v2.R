@@ -66,17 +66,20 @@ if ("-i" %in% args && "-gs" %in% args && "-z" %in% args && "-n" %in% args && "-t
 }
 
 
-## Assigning Variables
-#setwd("/home/data/Dropbox (Genomic Expression)/GEx Bioinformatics/12. OneRNA Secondary Pipeline/Workspace-Sanmati/2. Boxplot_Automation/")
-#scaled_data = "20231027_Ovarian_Sample_Report/union_scale_input.csv"
-#gene_states = "20231027_Ovarian_Sample_Report/curated_union_gene_states.csv"
-#z_statistics = "/home/data/Genomic Expression Dropbox/OneRNA Pipe/GEx Bioinformatics/12. OneRNA Secondary Pipeline/Workspace-Sanmati/3. Z_Analysis/TCGA_OV_Z_score/TCGA.29.1688-z_stats.csv"
+#Assigning Variables
+#setwd("~/26. Workspace-Sanmati/2. Boxplot_Automation/")
+setwd("~/3. Boxplot_Analysis/X1107H4D/Input_Files/")
 
-gene_panel = "/home/data/Dropbox (Genomic Expression)/GEx Bioinformatics/8. OneRNA Report/OneRNAdb Gene exports/20231031_Standard_Gene_Panel.xlsx"
-#panel_name = "Homologous-Repair-Pathway"
-#normal_count = 98
-#tumor_sample = "TCGA.29.1688"
-#state_type = "ALL"
+scaled_data = "or4r-scaled.csv"
+gene_states = "or4r-gene_states.csv"
+z_statistics = "X1107H4D-z_stats.csv"
+
+#Standard_Panel
+gene_panel = "~/20231031_Standard_Gene_Panel.xlsx"
+panel_name = "Other-Immune-modulating-Genes-C"
+normal_count = 24
+tumor_sample = "X1107H4D"
+state_type = "ALL"
 
 
 title = paste(tumor_sample, ":", panel_name, "Gene Panel -", state_type, "genes")
@@ -279,4 +282,5 @@ mtext(side = 1, text = colnames(An), at= 1:ncol(An), col = col, line = 0.5, font
 # mtext(side = 1, text = "VERY LOW", col = "darkblue", line = 4, font = 2, at = 6.5)
 
 dev.off()
+
 
